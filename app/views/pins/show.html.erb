@@ -1,0 +1,11 @@
+ <div class="jumbotron center">
+		<p id="notice"><%= notice %></p>
+
+		<p>
+		  <strong>Description:</strong>
+		  <%= @pin.description %>
+		</p>
+
+		<%= link_to 'Edit', edit_pin_path(@pin), class: "btn btn-default btn-xs" %> |
+		<%= link_to 'Back', pins_path,  class: "btn btn-default btn-xs" %>
+</div>
