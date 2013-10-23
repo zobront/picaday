@@ -1,2 +1,2 @@
 ---
-BUNDLE_WITHOUT: doc
+BUNDLE_WITHOUT: production
