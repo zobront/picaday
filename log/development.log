@@ -31054,3 +31054,13 @@ Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-10-24 23:58:23 
 
 
 Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2013-10-24 23:58:24 -0300
+
+
+Started GET "/pins/9" for 127.0.0.1 at 2013-10-24 23:59:09 -0300
+Processing by PinsController#show as HTML
+  Parameters: {"id"=>"9"}
+  [1m[35mPin Load (0.2ms)[0m  SELECT "pins".* FROM "pins" WHERE "pins"."id" = ? LIMIT 1  [["id", "9"]]
+  Rendered pins/show.html.erb within layouts/application (2.2ms)
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 2 ORDER BY "users"."id" ASC LIMIT 1[0m
+  Rendered layouts/_header.html.erb (2.2ms)
+Completed 200 OK in 40ms (Views: 37.5ms | ActiveRecord: 0.5ms)
